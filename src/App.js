@@ -51,19 +51,21 @@ export default class App extends React.Component  {
                             <Range name={'height'}
                                    id={'height'}
                                    label={'Height: '}
+                                   measure={'cm'}
                                    value={height}
                                    onChange={(event) => this.setState({height: event.target.value})}
                                    min = {90}
-                                   max = {240}  />
+                                   max = {245}  />
                         </div>
                         <div>
                             <Range name={'weight'}
                                    id={'weight'}
                                    label={'Weight: '}
+                                   measure={'kg'}
                                    value={weight}
                                    onChange={(event) => this.setState({weight: event.target.value})}
                                    min = {35}
-                                   max = {125}  />
+                                   max = {200}  />
                         </div>
                     </div>
                     <div><span>BMI:</span> <span>{bmi}</span> <span>{category}</span></div>

@@ -1,0 +1,13 @@
+.range__label {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.range__limit {
+    font-size: small;
+}
+
+.range__value {
+    font-weight: bold;
+    margin-left: 20px;
+}
